@@ -1,0 +1,101 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #3d3b3b;
+    background-color: rgb(67, 63, 56);
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(32, 26, 24);
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  #about, #skills, #projects, #contact {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #8f912d;
+  }
+  
+  .project {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #555;
+   
+  }
+  
+  .project a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  #contactForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contactForm input, #contactForm textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #333;
+  }
+  
+  #contactForm button {
+    padding: 10px;
+    background: #393737;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #contactForm button:hover {
+    background: #392828;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(32, 26, 24);
+  }
+  
